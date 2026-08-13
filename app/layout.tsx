@@ -42,6 +42,9 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0284c7" />
+
+<script src="https://quge5.com/88/tag.min.js" data-zone="269524" async data-cfasync="false"></script>
+
       </head>
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
