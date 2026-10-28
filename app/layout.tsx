@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
+import AdsterraNativeBanner from '@/components/AdsterraNativeBanner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -43,12 +44,14 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0284c7" />
 
-<script src="https://quge5.com/88/tag.min.js" data-zone="269524" async data-cfasync="false"></script>
+<!-- Adsterra Popunder -->
+<script data-cfasync="false" src="https://accountut.com/1/b3f5686fc3f982cbc8b077425f2e4827"></script>
 
       </head>
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           <Header />
+          <AdsterraNativeBanner />
           <main className="flex-grow">{children}</main>
           <Footer />
           <CookieConsent />
