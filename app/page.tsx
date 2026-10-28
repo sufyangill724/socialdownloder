@@ -52,6 +52,16 @@ export default function Home() {
             </p>
             
             <Downloader />
+            <div className="mt-6 text-center">
+              <a
+                href="https://ardance.org/4/6467ba247d286efc03d3f24731484b46"
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="text-sm text-gray-500 hover:text-primary-600 underline"
+              >
+                Sponsored offer
+              </a>
+            </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 max-w-2xl mx-auto">
               <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
