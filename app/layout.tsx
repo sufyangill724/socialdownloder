@@ -44,7 +44,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0284c7" />
 
-<!-- Adsterra Popunder -->
+{/* Adsterra Popunder */}
 <script data-cfasync="false" src="https://accountut.com/1/b3f5686fc3f982cbc8b077425f2e4827"></script>
 
       </head>
