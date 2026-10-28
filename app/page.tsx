@@ -52,9 +52,17 @@ export default function Home() {
             </p>
             
             <Downloader />
-            <div className="mt-6 text-center">
+            <div className="mt-6 flex items-center justify-center gap-6 text-center">
               <a
                 href="https://ardance.org/4/6467ba247d286efc03d3f24731484b46"
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="text-sm text-gray-500 hover:text-primary-600 underline"
+              >
+                Sponsored offer
+              </a>
+              <a
+                href="https://asiafilm.org/4/5afe7c4b0ef0c590ffe7b8378dfd8c96"
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 className="text-sm text-gray-500 hover:text-primary-600 underline"
